@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visit Skardu</title>
+<meta name="description" content="Plan a trip to Skardu, Gilgit-Baltistan: lakes, cold desert, forts and the road to the Karakoram.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{
+  --deep:#0F3D4C; --deeper:#0A2A35; --ink:#10262E; --muted:#3A5560;
+  --bg:#F5F7F6; --mist:#E1ECEE; --line:#D6E3E6; --apricot:#B45309; --sun:#F0B27A; --lake:#2E6E80;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Source Sans 3',sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+h1,h2,h3{font-family:'Sora',sans-serif;margin:0}
+a{color:inherit;text-decoration:none}
+a:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{padding-left:6vw;padding-right:6vw}
+
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;padding:24px 6vw;background:var(--deep);color:#fff}
+.logo{font-family:'Sora',sans-serif;font-weight:700;font-size:22px}
+nav{display:flex;gap:28px;flex-wrap:wrap;font-size:17px}
+
+.hero{background:var(--deep);color:#fff;padding:56px 6vw 0;display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between}
+.hero-text{flex:1 1 420px;max-width:640px;padding-bottom:56px}
+.region{margin:0 0 16px;font-size:18px;color:var(--sun)}
+.hero h1{font-size:clamp(40px,6vw,68px);line-height:1.08;margin-bottom:20px}
+.lead{margin:0 0 32px;font-size:21px;color:#D6E6EA}
+.hero svg{flex:1 1 360px;max-width:560px;width:100%;height:auto;display:block}
+.buttons{display:flex;gap:16px;flex-wrap:wrap}
+.btn{display:inline-block;min-height:44px;padding:14px 28px;font-weight:600;font-size:18px;background:var(--apricot);color:#fff;border:2px solid var(--apricot)}
+.btn:hover{opacity:.9}
+.btn.ghost{background:transparent;border-color:#fff}
+
+section{padding:72px 6vw}
+section h2{font-size:38px;margin-bottom:12px}
+.sub{margin:0 0 40px;font-size:19px;color:var(--muted)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:#fff;border:1px solid var(--line);padding:28px}
+.card .bar{height:8px;width:56px;background:var(--lake);margin-bottom:16px}
+.card:nth-child(even) .bar{background:var(--apricot)}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{margin:0;color:var(--muted)}
+
+#season{background:var(--mist)}
+.seasons{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px}
+.seasons h3{font-size:21px;margin-bottom:8px}
+.seasons p{margin:0;color:var(--muted)}
+
+#route h2{margin-bottom:32px}
+#route ol{margin:0;padding-left:24px;display:flex;flex-direction:column;gap:16px;font-size:20px;max-width:760px}
+
+#plan{background:var(--deep);color:#fff;text-align:center;padding:80px 6vw}
+#plan h2{font-size:clamp(30px,5vw,48px);margin-bottom:16px}
+#plan p{margin:0 auto 32px;max-width:540px;font-size:20px;color:#D6E6EA}
+
+footer{padding:24px 6vw;background:var(--deeper);color:#D6E6EA;font-size:15px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Visit Skardu</div>
+  <nav aria-label="Main">
+    <a href="#places">Places</a>
+    <a href="#season">When to go</a>
+    <a href="#route">Sample route</a>
+    <a href="#plan">Plan</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="hero-text">
+      <p class="region">Gilgit-Baltistan, Pakistan</p>
+      <h1>Skardu, where the Karakoram begins</h1>
+      <p class="lead">Alpine lakes, a cold desert, ancient forts and the road to the world's great peaks, all within reach of one valley town.</p>
+      <div class="buttons">
+        <a class="btn" href="https://ilyasskardutravelsandtours.com/">Skardu Travel</a>
+        <a class="btn ghost" href="#places">See the places</a>
+      </div>
+    </div>
+    <svg viewBox="0 0 560 320" role="img" aria-label="Illustration of Karakoram peaks above a lake">
+      <circle cx="90" cy="70" r="32" fill="#F0B27A"/>
+      <path d="M60 320 L230 60 L330 190 L400 110 L560 320 Z" fill="#2E6E80"/>
+      <path d="M200 320 L380 30 L520 230 L560 190 L560 320 Z" fill="#1C5266"/>
+      <path d="M380 30 L342 92 L368 84 L384 104 L402 82 L424 92 Z" fill="#F5F7F6"/>
+      <path d="M230 60 L202 104 L224 98 L236 112 L252 96 L264 106 Z" fill="#F5F7F6"/>
+      <path d="M0 320 L0 262 Q140 240 280 262 T560 258 L560 320 Z" fill="#5FA8B8"/>
+      <path d="M0 320 L0 292 Q140 274 280 292 T560 290 L560 320 Z" fill="#F5F7F6"/>
+    </svg>
+  </div>
+
+  <section id="places">
+    <h2>Places to see</h2>
+    <p class="sub">Six reasons to stay longer than a night.</p>
+    <div class="grid">
+      <article class="card"><div class="bar"></div><h3>Shangrila and Kachura Lakes</h3><p>Calm lakes ringed by orchards, close to town and good for a first day.</p></article>
+      <article class="card"><div class="bar"></div><h3>Sarfaranga Cold Desert</h3><p>Sand dunes set against snow peaks, best at sunrise and sunset.</p></article>
+      <article class="card"><div class="bar"></div><h3>Deosai National Park</h3><p>A high plateau of wildflowers and open sky, reached by a long mountain road.</p></article>
+      <article class="card"><div class="bar"></div><h3>Shigar Fort</h3><p>A restored historic fort in the Shigar Valley, with quiet courtyards.</p></article>
+      <article class="card"><div class="bar"></div><h3>Satpara Lake</h3><p>A large blue lake just outside town, a short and easy outing.</p></article>
+      <article class="card"><div class="bar"></div><h3>Khaplu Valley</h3><p>Traditional villages and a palace guesthouse on the road east.</p></article>
+    </div>
+  </section>
+
+  <section id="season">
+    <h2>When to go</h2>
+    <p class="sub">Check road and weather conditions before you travel.</p>
+    <div class="seasons">
+      <div><h3>Spring</h3><p>Apricot and cherry blossom in the valleys, with cool mornings.</p></div>
+      <div><h3>Summer</h3><p>The main season. High roads such as Deosai are usually open.</p></div>
+      <div><h3>Autumn</h3><p>Golden leaves, clear light and fewer visitors.</p></div>
+    </div>
+  </section>
+
+  <section id="route">
+    <h2>A sample four-day route</h2>
+    <ol>
+      <li><strong>Day 1:</strong> Arrive, Satpara Lake and the old bazaar.</li>
+      <li><strong>Day 2:</strong> Shangrila and the Kachura lakes.</li>
+      <li><strong>Day 3:</strong> Shigar Fort and Sarfaranga Cold Desert.</li>
+      <li><strong>Day 4:</strong> Deosai National Park, then return.</li>
+    </ol>
+  </section>
+
+  <section id="plan">
+    <h2>Ready to see Skardu?</h2>
+    <p>Send your dates and interests and we'll reply with a draft itinerary.</p>
+    <a class="btn" href="mailto:YOUR-EMAIL@example.com">Request an itinerary</a>
+  </section>
+</main>
+
+<footer>
+  <span>&copy; Visit Skardu</span>
+  <span>YOUR-EMAIL@example.com &middot; YOUR PHONE</span>
+</footer>
+
+</body>
+</html>
